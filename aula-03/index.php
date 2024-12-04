@@ -1,33 +1,34 @@
 
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cad.css">
 </head>
 <body>
 
-<header>
-       <img src="img/1.jpg" alt="" class="img1"> 
-        <h1>ATIVIDADE-PSW</h1>    
-        <img src="img/2.jpg" alt="" class="img2"> 
+    <header>
+            <img src="img/1.jpg" alt="" class="img1"> 
+             <h1>ATIVIDADE-PSW</h1>    
+             <img src="img/2.jpg" alt="" class="img2"> 
     </header>
+     
+         <div class="links">
+         <nav>
+                 <a href="index.php">Home</a> |
+                 <a href="cadaluno.php">Cadastro</a> |
+                 <a href="listaaluno.php">Lista de Alunos</a>
+        </nav>
+         </div>
+        
+   
 
-    <div class="links">
-    <nav>
-        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Youtube</a>
-        <a href="https://www.w3schools.com/html/html_form_input_types.asp">W3schools</a>
-        <a href="https://web01.guanambi.ifbaiano.edu.br/moodle/">moodle</a>
-        <a href="https://br.pinterest.com">pinterest</a>
-    </nav>
-    </div>
+<article>
 
-    <article>
-
-<p class="texto">
-   INICIO DO FORMULARIO <br><br>
+    <p class="texto">
+    </h class="">INICIO DO FORMULARIO<h> <br><br>
 
  No desenvolvimento de sites com HTML e CSS, o campo de senha (ou PSW) é amplamente utilizado para proteger o acesso a áreas restritas e garantir a privacidade das informações dos usuários. Esse campo desempenha um papel essencial na autenticação e na segurança dos dados, sendo comum em páginas de login, áreas administrativas e formulários confidenciais. Abaixo, estão algumas das principais funcionalidades desse campo em sites desenvolvidos com HTML e CSS. <br> <br>
  
@@ -47,26 +48,28 @@
  É possível implementar um botão de "exibir/ocultar senha" com CSS e JavaScript, permitindo que o usuário visualize a senha temporariamente, caso tenha interesse. Esse recurso melhora a usabilidade sem comprometer a segurança, pois o usuário controla quando quer ver ou ocultar a senha.<br> <br>
  
  Essas funcionalidades tornam o campo PSW indispensável para sites que necessitam de proteção de dados e autenticação segura. Ele contribui para uma experiência de navegação mais segura e prática, tanto para os usuários quanto para os desenvolvedores.<br> <br>
-</p>
+    </p>
 
-<section>
-    <img src="imagens/Imagem_do_WhatsApp_de_2024-11-03_à_s__17.09.22_25bbf5c1-removebg-preview.png" alt="" class="img4"> 
-    <img src ="imagens/Imagem_do_WhatsApp_de_2024-11-03_à_s__17.09.22_eca4f03b-removebg-preview.png" alt="" class="img5">
-</section>
-</article>
+    <section>
+    <img src="img/4.png" alt="" class="img4"> 
+    <img src ="img/5.png" alt="" class="img5">
+    </section>
+    </article>
 
 
 
     
+
+
     <footer>
-    <div class="copy">
+       <div class="copy">
         <p>© Copyright - Cauã - 2024</p>
         </div>
         <img src="img/3.jpg" alt="" class="img3">
    
-</footer>
+    </footer>
 
     
     
-    </body>
-    </html>
+</body>
+</html>

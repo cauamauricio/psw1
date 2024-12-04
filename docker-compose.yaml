@@ -3,7 +3,7 @@ version: '3'
 services:
   apache:
     image: 'php:7.4-apache'
-    container_name: php-psw1
+    container_name: caua-19-11-psw
     ports:
       - '8081:80'
     volumes:
