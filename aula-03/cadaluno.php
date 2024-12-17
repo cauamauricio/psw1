@@ -4,51 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" href="cad.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-       <img src="img/1.jpg" alt="Imagem 1" class="img1"> 
-        <h1>ATIVIDADE-PSW</h1>    
-        <img src="img/2.jpg" alt="Imagem 2" class="img2"> 
+       <img src="img/1.png" alt="Imagem 1" class="img1"> 
+        <h1>CADASTRAMENTO DE ALUNOS</h1>    
+        <img src="img/2.png" alt="Imagem 2" class="img2"> 
     </header>
 
     <div class="links">
          <nav>
-                 <a href="index.php">Home</a> |
-                 <a href="cadaluno.php">Cadastro</a> |
+                 <a href="index.php">Home</a> 
+                 <a href="cadaluno.php">Cadastro</a> 
                  <a href="listaaluno.php">Lista de Alunos</a>
         </nav>
          </div>
 
     <div class="principal">
-        <h1>Formulário PSW</h1>
+        <h1>Cadastro</h1>
         <form action="listaaluno.php" method="post"class="formulario"> 
             <div class="nome">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                <label for="nome">Nome:</label><br><br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome"required><br><br>
             </div>
 
             <div class="endereco">
-                <label for="endereco">Endereço:</label>
-                <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço">
+                <label for="endereco">Endereço:</label><br><br>
+                <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço"required><br><br>
             </div>
 
             <div class="bairro">
-                <label for="bairro">Bairro:</label>
-                <input type="text" id="bairro" name="bairro" placeholder="Digite seu bairro">
+                <label for="bairro">Bairro:</label><br><br>
+                <input type="text" id="bairro" name="bairro" placeholder="Digite seu bairro"required><br><br>
             </div>
 
             <div class="cidade">
-                <label for="cidade">Cidade:</label>
-                <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade">
+                <label for="cidade">Cidade:</label><br><br>
+                <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade"required><br><br>
             </div>
 
             <div class="uf">
-                <label for="uf">UF:</label>
-                <select id="uf" name="uf" >
-                    <option value="">Selecione seu estado</option>
+                <label for="uf">UF:</label><br><br>
+                <select id="uf" name="uf" required>
+                    <option value="">Selecione seu estado</option><br><br>
                     <option value="AC">AC</option>
                     <option value="AL">AL</option>
                     <option value="AP">AP</option>
@@ -76,32 +76,32 @@
                     <option value="SP">SP</option>
                     <option value="SE">SE</option>
                     <option value="TO">TO</option>
-                </select>
+                </select> <br> <br>
             </div>
 
             <div class="cpf">
-                <label for="cpf">CPF:</label>
-                <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF"> 
+                <label for="cpf">CPF:</label><br><br>
+                <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" required> <br><br>
             </div>
 
             <div class="celular">
-                <label for="celular">Celular:</label>
-                <input type="tel" id="celular" name="celular" placeholder="Ex: (11) 99999-9999" >
+                <label for="celular">Celular:</label><br><br>
+                <input type="tel" id="celular" name="celular" placeholder="Ex: (11) 99999-9999"required ><br><br>
             </div>
 
             <div class="data-nascimento">
-                <label for="data-nascimento">Data de Nascimento:</label>
-                <input type="date" id="data-nascimento" name="data-nascimento" >
+                <label for="data-nascimento">Data de Nascimento:</label><br><br>
+                <input type="date" id="data-nascimento" name="data-nascimento" required><br><br>
             </div>
 
             <div class="disciplinas-cursadas">
-                <label for="disciplinas-cursadas">Disciplinas Cursadas:</label>
-                <input type="text" id="disciplinas-cursadas" name="disciplinas-cursadas" placeholder="Liste as disciplinas que você já cursou" >
+                <label for="disciplinas-cursadas">Disciplinas Cursadas:</label><br><br>
+                <input type="text" id="disciplinas-cursadas" name="disciplinas-cursadas" placeholder="Liste as disciplinas que você já cursou" required><br><br>
             </div>
 
             <div class="disciplinas-preferidas">
-                <label for="disciplinas-preferidas">Disciplinas Preferidas:</label>
-                <input type="text" id="disciplinas-preferidas" name="disciplinas-preferidas" placeholder="Liste suas disciplinas favoritas" >
+                <label for="disciplinas-preferidas">Disciplinas Preferidas:</label><br><br>
+                <input type="text" id="disciplinas-preferidas" name="disciplinas-preferidas" placeholder="Liste suas disciplinas favoritas" ><br><br>
             </div>
 
             <div class="enviar">
@@ -110,12 +110,19 @@
         </form>
     </div>
 
-    <footer>
-        <div class="copy">
-            <p>© Copyright - Cauã - 2024</p>
-        </div>
-        <img src="img/3.jpg" alt="Imagem 3" class="img3">
-    </footer>
+<div class="footer">
+
+    <div id="drodape1"></div>
+
+        <div id="drodape2">
+        <p>© Copyright - Cauã - 2024</p> 
+    </div>
+
+ <div id="drodape3">
+        <img id= "img3" src="img/3.jpg" alt="Imagem 3">
+    </div>
+
+</div>
 
 </body>
 </html>
