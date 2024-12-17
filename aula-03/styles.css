@@ -78,12 +78,20 @@ nav a:hover {
     height: 900px;
 }
 
-.img4, .img5 {
-    margin-top: 120px;
-    width: 260px;
-    height: 180px;
+.img6 {
+    margin-top: 170px;
+    width: 290px;
+    height: 200px;
     display: inline-flex;
     flex-direction: column;
+}
+
+.img7{
+    margin-top: 200px;
+    width: 290px;
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column;  
 }
 
 h1 {

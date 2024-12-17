@@ -11,7 +11,7 @@
 
 <header>
        <img src="img/1.png" alt="Imagem 1" class="img1"> 
-        <h1>CADASTRAMENTO DE ALUNOS</h1>    
+        <h1>BEM VINDOS AO LEAGUE OF LEGENDS</h1>    
         <img src="img/2.png" alt="Imagem 2" class="img2"> 
     </header>
      
@@ -44,8 +44,8 @@ League of Legends te espera. Entre, escolha seu campeão e torne-se uma lenda. <
     </p>
     </div>
     <div id="image7">
-    <img src="img/4.png" alt="" class="img4"> 
-    <img src ="img/5.png" alt="" class="img5">
+    <img src="img/6.png" alt=""class="img6">
+    <img src ="img/7.png" alt="" class="img7">
     </div>
 </div>
 

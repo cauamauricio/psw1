@@ -10,7 +10,7 @@
 
     <header>
        <img src="img/1.png" alt="Imagem 1" class="img1"> 
-        <h1>CADASTRAMENTO DE ALUNOS</h1>    
+        <h1>CADASTRAMENTO DOS JOGADORES</h1>    
         <img src="img/2.png" alt="Imagem 2" class="img2"> 
     </header>
 

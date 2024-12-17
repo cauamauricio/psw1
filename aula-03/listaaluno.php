@@ -10,7 +10,7 @@
 
 <header>
        <img src="img/1.png" alt="Imagem 1" class="img1"> 
-        <h1>CADASTRAMENTO DE ALUNOS</h1>    
+        <h1>LISTA DE JOGADORES</h1>    
         <img src="img/2.png" alt="Imagem 2" class="img2"> 
     </header>
  
@@ -22,11 +22,9 @@
         </nav>
          </div>
 
-         <h1>Lista de Alunos</h1>
-         <table>
-         <table>
-         <table>
-        <thead>
+         <h1>Lista dos Jogadores</h1>
+    <table>
+            <thead>
             <tr>
                 <th>Nome</th>
                 <th>Celular</th>
@@ -38,7 +36,7 @@
                 <th>UF</th>
                 <th>Disciplinas Cursadas</th>
             </tr>
-        </thead>
+            </thead>
         <tbody>
             <tr>
                 <td><?php echo $_POST['nome']; ?></td>
@@ -76,7 +74,7 @@
         </tbody>
     </table>
         </header>
-        <br><br><br><br><br>
+        <br><br><br><br><br><br><br>
         <div class="footer">
 
 <div id="drodape1"></div>
