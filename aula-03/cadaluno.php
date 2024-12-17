@@ -16,9 +16,9 @@
 
     <div class="links">
          <nav>
-                 <a href="index.php">Home</a> 
+                 <a href="index.php">Início</a> 
                  <a href="cadaluno.php">Cadastro</a> 
-                 <a href="listaaluno.php">Lista de Alunos</a>
+                 <a href="listaaluno.php">Lista de Jogadores</a>
         </nav>
          </div>
 
