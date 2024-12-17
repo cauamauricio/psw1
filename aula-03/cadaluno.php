@@ -24,21 +24,24 @@
 
     <div class="principal">
         <h1>Cadastro</h1>
-        <form action="listaaluno.php" method="post"class="formulario"> 
-            <div class="nome">
+        <div class="containercad">
+
+            <div class="esquerda">
+                <form action="listaaluno.php" method="post"class="formulario"> 
+                <div class="nome">
                 <label for="nome">Nome:</label><br><br>
                 <input type="text" id="nome" name="nome" placeholder="Digite seu nome"required><br><br>
-            </div>
+             </div>
 
-            <div class="endereco">
+                <div class="endereco">
                 <label for="endereco">Endereço:</label><br><br>
                 <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço"required><br><br>
-            </div>
+                </div>
 
-            <div class="bairro">
+                <div class="bairro">
                 <label for="bairro">Bairro:</label><br><br>
                 <input type="text" id="bairro" name="bairro" placeholder="Digite seu bairro"required><br><br>
-            </div>
+             </div>
 
             <div class="cidade">
                 <label for="cidade">Cidade:</label><br><br>
@@ -78,7 +81,9 @@
                     <option value="TO">TO</option>
                 </select> <br> <br>
             </div>
+            </div>
 
+            <div class="direita">
             <div class="cpf">
                 <label for="cpf">CPF:</label><br><br>
                 <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" required> <br><br>
@@ -106,6 +111,8 @@
 
             <div class="enviar">
                 <button type="submit">Enviar</button>
+            </div>
+            </div>
             </div>
         </form>
     </div>

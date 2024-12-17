@@ -109,6 +109,7 @@ h1 {
 }
 
 .principal {
+    align-items: center;
     color: #070101;
     width: 90%;
     max-width: 800px;
@@ -116,7 +117,15 @@ h1 {
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px #CFA75D;
+}
+
+.containercad {
+    display: flex;
+}
+
+.direita, .esquerda {
+    width: 50%;
 }
 
 label {
@@ -129,7 +138,7 @@ input, select, button {
     border: 1px solid #CFA75D; 
     border-radius: 5px;
     font-size: 1rem;
-    width: 100%; 
+    width: 90%; 
     max-width: 400px; 
     margin-bottom: 15px; 
 }

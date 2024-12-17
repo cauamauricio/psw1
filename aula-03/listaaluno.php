@@ -74,8 +74,9 @@
         </tbody>
     </table>
         </header>
-        <br><br><br><br><br><br><br>
-        <div class="footer">
+        <br><br><br><br><br><br><br><br>
+
+<div class="footer">
 
 <div id="drodape1"></div>
 
